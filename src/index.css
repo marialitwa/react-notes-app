@@ -29,13 +29,39 @@ code {
 }
 
 .note {
-  background-color: #faf5b5;
+  background-color: #EEE6E3;
   padding: 1em;
   border-radius: .5em;
   min-height: 170px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.note.new {
+  background-color: #BD4C75;
+}
+
+textarea {
+  background-color: #BD4C75;
+  resize: none;
+  border: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.save {
+  background-color: rgb(206, 205, 205);
+  padding: .4em .7em;
+  border: none;
+  border-radius: 1em;
+}
+
+.save:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
 }
 
 .note-footer {
