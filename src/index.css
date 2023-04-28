@@ -26,12 +26,21 @@ code {
   border-radius: 1em;
 }
 
+.dark-mode {
+  background-color: rgb(23, 23, 23);
+}
+
+.dark-mode h1 {
+  color: whitesmoke;
+}
+
 .container {
   max-width: 960px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 2em;
   padding-right: 2em;
+  min-height: 100vh;
 }
 
 .search-bar {
