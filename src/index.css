@@ -41,9 +41,6 @@ code {
   outline: none;
 }
 
-::placeholder {
-}
-
 .notes-list {
   display: grid;
   grid-gap: 1em;
